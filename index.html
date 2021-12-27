@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <title>Audio Test</title>
+    </head>
+
+    <body>
+        <h2>Audio Integration Test</h2>
+        <p>This is a quick test of integrating audio into a web application.  
+            The intent is to eventually include audio into web3 dapps. I've
+            accomplished this using the HTML5 <strong>audio tag</strong> and am
+            establishing control in Javascript using the addEventListener method.
+        </p>
+
+        <p>Controls are simple: click Play Music to loop the audio track.  Double
+            click Pause Music to pause the audio track.
+        </p>
+
+        <p>This short demo is done in collaboration with HeatleyBros. Check them out on YouTube
+            with the link below. 
+        </p>
+             
+            
+        <button id="music-btn">Play Music</button>
+        <button id="pause-btn">Pause Music</button>
+        <p id="credit">Official Music Credit:</p>
+        <ul>
+            <li>Music: "Intro Theme - The Beyond_" By HeatleyBros</li>
+            <li><a href="https://www.youtube.com/c/HeatleyBros" target="_blank">HeatleyBros - Royalty Free Video Game Music YouTube Channel</a></li>
+        </ul>
+        <audio id="heatley-tune" loop>
+            <source src="./music/Intro Theme - _The Beyond_ By HeatleyBros.mp3">
+        </audio>
+        <script src="index.js"></script>
+    </body>
+</html>
