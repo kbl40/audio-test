@@ -4,7 +4,6 @@ Check out this quick application for integrating audio into your web app.  This 
 
 Video Game Chiptune Music free to use in all your social videos and games.
 
-_________
 If you'd like to use for video, just credit with a song link in the description.
 
 If you'd like to use in your game, just credit with an in-game song link (or in game description when applicable).
